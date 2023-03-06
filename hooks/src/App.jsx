@@ -6,7 +6,7 @@ import StyledComponents from "./hooks/StyledComponents";
 import UseState from "./hooks/UseState";
 import UseEffect from "./hooks/UseEffect";
 import UseRef from "./hooks/UseRef";
-import UseContext from "./hooks/UseContxt";
+import UseContext from "./hooks/UseContext";
 import ReactMemo from "./hooks/ReactMemo";
 import UseCallback from "./hooks/UseCallback";
 import UseMemo1 from "./hooks/UseMemo1";
@@ -29,7 +29,7 @@ function App() {
       <UseEffect />
       <p>-----------------------useRef-----------------------</p>
       <UseRef />
-      <p>-----------------------useEffect-----------------------</p>
+      <p>-----------------------useContext-----------------------</p>
       <UseContext />
       <p>-----------------------React.memo-----------------------</p>
       <ReactMemo />
